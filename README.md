@@ -1,6 +1,6 @@
 # Beat Tracking with a Causal Temporal Convolutional Network
 
-Course project for ECE 490: Neural Networks. Trains a causal TCN for real-time
+Course project for ECE 490/590: Neural Networks. Trains a causal TCN for real-time
 beat tracking on audio, intended to drive a mechanical actuator for synchronized
 percussion. Progress-report submission.
 
