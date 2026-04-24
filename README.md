@@ -61,7 +61,7 @@ Originally from Tzanetakis & Cook 2002. Commonly redistributed; the version
 used here was sourced from Kaggle ("GTZAN Dataset - Music Genre
 Classification"). One track (`jazz.00054.wav`) is known to be corrupted and
 is automatically excluded by the notebook.
-- Source: \https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download`
+- Source: `https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download`
 - Citation: Tzanetakis & Cook, "Musical genre classification of audio
   signals," IEEE TSAP, 2002.
 - Known issues: Sturm, "The GTZAN dataset: Its contents, its faults, their
