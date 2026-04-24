@@ -82,7 +82,7 @@ is automatically excluded by the notebook.
 ### Setup
 
 1. **Upload audio archives to Google Drive.** Place `ballroom.tar.gz` and
-   `GTZAN.zip` in a single folder. Note the Drive path — you will point
+   `GTZAN.zip` in a single folder. Note the Drive path, as you will need to point
    the notebook at it.
 
 2. **Open the notebook in Colab** and change runtime type to GPU.
@@ -97,14 +97,14 @@ is automatically excluded by the notebook.
 
 The notebook is organized into five sections, each self-contained:
 
-1. **Setup** — Mounts Drive, extracts audio archives into Colab local
+1. **Setup**: Mounts Drive, extracts audio archives into Colab local
    storage, clones annotation repositories, builds the combined track
    list. Includes a visual QA cell that plots spectrogram + beat-target
    alignment for several random tracks; this verifies the data pipeline
    is correct before any training.
    *Runtime: 2–3 minutes.*
 
-2. **Dataset and caching** — Computes log-mel features and Gaussian-smoothed
+2. **Dataset and caching**: Computes log-mel features and Gaussian-smoothed
    beat targets for all tracks and saves them to `/content/cache/`. On
    first run, set `REBUILD_CACHE = True` in the first code cell to build
    the cache from audio (~30 minutes) and back it up to Drive. On
@@ -113,13 +113,13 @@ The notebook is organized into five sections, each self-contained:
    train/val/test loaders.
    *Runtime on first build: ~35 minutes. Subsequent runs: ~2 minutes.*
 
-3. **Model** — Defines the causal TCN architecture (`BeatTCN` class)
+3. **Model**: Defines the causal TCN architecture (`BeatTCN` class)
    with a `causal` flag so the same code path supports both the main
    causal model and the non-causal ablation. Instantiates a fresh model
    and verifies forward-pass shape preservation.
    *Runtime: <10 seconds.*
 
-4. **Training** — Runs three training experiments under matched
+4. **Training**: Runs three training experiments under matched
    hyperparameters:
    - v1 (main causal model, dilations 1–32, 284k parameters)
    - v2 (extended receptive field, dilations 1–128, 367k parameters)
@@ -131,7 +131,7 @@ The notebook is organized into five sections, each self-contained:
    later plotting.
    *Runtime: ~4 minutes per experiment on a T4 GPU.*
 
-5. **Evaluation** — Loads the best checkpoint and computes all reported
+5. **Evaluation**: Loads the best checkpoint and computes all reported
    metrics:
    - `mir_eval` metrics (F-measure, Cemgil, CMLt, AMLt) overall and per
      dataset
