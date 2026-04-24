@@ -4,6 +4,8 @@ Course project for ECE 490: Neural Networks. Trains a causal TCN for
 real-time beat tracking on audio, intended to drive a mechanical
 actuator for synchronized percussion. Progress-report submission.
 
+**[Progress report (PDF)](reports/progress-report.pdf)**
+
 ## Results
 
 - Test F-measure: 0.855 (Ballroom: 0.908, GTZAN: 0.825)
