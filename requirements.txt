@@ -1,0 +1,7 @@
+numpy
+torch
+librosa
+matplotlib
+mir_eval
+scipy
+tqdm
