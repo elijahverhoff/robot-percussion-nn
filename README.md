@@ -6,7 +6,7 @@ in time with music. Final-report submission.
 
 **[Final report (PDF)](reports/final-report.pdf)**
 **[Progress report (PDF)](reports/progress-report.pdf)**
-**[Demo video]([beat-tracker-demo.mov](https://drive.google.com/file/d/10GNSU-em0evfEN7q8_hzUeWL1ydSq0uN/view?usp=sharing))**
+****[Demo video](https://drive.google.com/file/d/10GNSU-em0evfEN7q8_hzUeWL1ydSq0uN/view?usp=sharing)****
 
 ## Results
 
