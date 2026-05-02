@@ -21,7 +21,9 @@ Full methodology, figures, and analysis are in the progress report.
 .
 ├── beat-tracking-tcn.ipynb    Main notebook (all code and outputs)
 ├── figures/                       Evaluation figures referenced in report
-├── reports/                       Progress report PDF
+├── reports/                       Report PDFs
+├── trackingDemo/                  Python scripts, JSON files
+├── strikerServo                   Arduino sketch
 ├── requirements.txt               Python package dependencies
 ├── README.md
 └── .gitignore
