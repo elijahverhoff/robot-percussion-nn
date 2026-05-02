@@ -24,6 +24,7 @@ Full methodology, figures, and analysis are in the final report.
 ```
 .
 ├── beat-tracking-tcn.ipynb        Main notebook (training + evaluation)
+├── beat-tracker-demo.mov          Recorded demonstration video
 ├── figures/                       Evaluation figures referenced in report
 ├── reports/                       Final and progress report PDFs
 ├── strikerServo/                  Arduino sketch for servo control
