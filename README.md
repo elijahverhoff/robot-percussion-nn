@@ -41,8 +41,7 @@ Full methodology, figures, and analysis are in the final report.
 ## Reproducing
 
 The project has two reproducible pieces: the **model training and evaluation**
-(in the notebook, runs in Google Colab) and the **robotics demo** (local Python
-+ Arduino, runs on a laptop with the trained model).
+(in the notebook, runs in Google Colab) and the **robotics demo** (local Python and Arduino, runs on a laptop with the trained model).
 
 ### Part 1: Model training and evaluation
 
