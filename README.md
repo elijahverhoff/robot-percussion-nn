@@ -6,7 +6,7 @@ in time with music. Final-report submission.
 
 **[Final report (PDF)](reports/final-report.pdf)**
 **[Progress report (PDF)](reports/progress-report.pdf)**
-**[Demo video](beat-tracker-demo.mov)**
+**[Demo video]([beat-tracker-demo.mov](https://drive.google.com/file/d/10GNSU-em0evfEN7q8_hzUeWL1ydSq0uN/view?usp=sharing))**
 
 ## Results
 
@@ -24,7 +24,6 @@ Full methodology, figures, and analysis are in the final report.
 ```
 .
 ├── beat-tracking-tcn.ipynb        Main notebook (training + evaluation)
-├── beat-tracker-demo.mov          Recorded demonstration video
 ├── figures/                       Evaluation figures referenced in report
 ├── reports/                       Final and progress report PDFs
 ├── strikerServo/                  Arduino sketch for servo control
